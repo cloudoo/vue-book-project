@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import ShowText from '@/components/ShowText'
+import MovieList from '@/components/MovieList'
 
 Vue.use(Router)
 
@@ -11,7 +12,7 @@ const routes = [{
   meta: { title: 'home' }
 }, {
   path: '/movieList',
-  component: MoveList
+  component: MovieList
 }, {
   path: '/showText',
   component: ShowText
